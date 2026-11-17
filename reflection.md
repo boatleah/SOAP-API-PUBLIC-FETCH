@@ -1,1 +1,3 @@
-
+I chose the National Digital Forecast Database from the list and changed the example code to get a forecast from it. I put the code in a Flask app with one GET and one POST route so I can test it with curl. The code checks the inputs, and if something is wrong it shows my own error message plus the error from Python.
+What surprised me was how many things broke before it worked. The service wanted two extra settings, and it listed the wrong web address, so I had to fix both. The answer also came back as XML text, so I turned it into a Python dictionary.
+I understand SOAP better now. I want to learn more about SOAP errors.
